@@ -9,22 +9,6 @@ Lmao welcome to my mod
 I don't expect this to be overly big, but 1k special lmao
 If you like the mod you can do a PC Port to android but I'm doing a android port and that's final
 
-# Mark's note
-hi
-why is jamey gay
-please awnser me
-OH FUCK 
-DONT DELETE THIS POYO
-BEFORE YOU DELETE THIS POYO
-JAMEY HAD SEX WITH ZAC
-
-# RP4's note again
-Sorry guys.... mark hacked into the readme file okay
-Dont question the last paragraph
-
-# Daninnocent's Note
-VS NIKOLAI CONFIRMED!??!?!?!?!?!?!?!?!??!?!?!?!??! :FLUSHED::FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: :FLUSHED: 
-
 # Credits from Kade Engine 
 ### Friday Night Funkin'
  - [ninjamuffin99](https://twitter.com/ninja_muffin99) - Programming
