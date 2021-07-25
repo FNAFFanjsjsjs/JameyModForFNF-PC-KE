@@ -128,16 +128,16 @@ class Character extends FlxSprite
 				frames = tex;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP', 24, false);
-				animation.addByPrefix('singLEFT', 'BF NOTE LEFT', 24, false);
-				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT', 24, false);
+				animation.addByPrefix('singLEFT', 'BF NOTE RIGHT', 24, false);
+				animation.addByPrefix('singRIGHT', 'BF NOTE LEFT', 24, false);
 				animation.addByPrefix('singDOWN', 'BF NOTE DOWN', 24, false);
 
 
-				addOffset('idle', -5);
-				addOffset("singUP", -29, 27);
-				addOffset("singLEFT", -38, -7);
-				addOffset("singRIGHT", 12, -6);
-				addOffset("singDOWN", -10, -50);
+				addOffset('idle', -5, -80);
+				addOffset("singUP", -29, -30);
+				addOffset("singLEFT", 12, -53);
+				addOffset("singRIGHT", -38, -70);
+				addOffset("singDOWN", -10, -110);
 
 				playAnim('idle');
 
