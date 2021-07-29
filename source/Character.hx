@@ -128,8 +128,8 @@ class Character extends FlxSprite
 				frames = tex;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP', 24, false);
-				animation.addByPrefix('singLEFT', 'BF NOTE LEFT', 24, false);
-				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT', 24, false);
+				animation.addByPrefix('singLEFT', 'BF NOTE RIGHT', 24, false);
+				animation.addByPrefix('singRIGHT', 'BF NOTE LEFT', 24, false);
 				animation.addByPrefix('singDOWN', 'BF NOTE DOWN', 24, false);
 
 
