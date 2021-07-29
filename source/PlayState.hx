@@ -7,9 +7,12 @@ import openfl.ui.Keyboard;
 import openfl.events.KeyboardEvent;
 import Replay.Ana;
 import Replay.Analysis;
+#if !mobile
 #if cpp
 import webm.WebmPlayer;
 #end
+#end
+// Gonna use webm later if needed
 import flixel.input.keyboard.FlxKey;
 import haxe.Exception;
 import openfl.geom.Matrix;
