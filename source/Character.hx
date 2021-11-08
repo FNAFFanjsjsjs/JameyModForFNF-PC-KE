@@ -485,7 +485,7 @@ class Character extends FlxSprite
 
 				antialiasing = false;
 			
-			case 'Jamey':
+			case 'jamey':
 				frames = Paths.getSparrowAtlas('characters/Jamey');
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP', 24, false);
@@ -493,11 +493,11 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT', 24, false);
 				animation.addByPrefix('singDOWN', 'BF NOTE DOWN', 24, false);
 
-				addOffset('idle');
-				addOffset("singUP", 5, 37);
-				addOffset("singRIGHT");
-				addOffset("singLEFT", 40);
-				addOffset("singDOWN", 14);
+				addOffset('idle', -5);
+				addOffset("singUP", -29, 27);
+				addOffset("singRIGHT", -38, -7);
+				addOffset("singLEFT", 12, -6);
+				addOffset("singDOWN", -10, -50);
 
 				playAnim('idle');
 
