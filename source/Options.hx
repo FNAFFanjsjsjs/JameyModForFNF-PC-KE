@@ -140,6 +140,28 @@ class DownscrollOption extends Option
 	}
 }
 
+class MiddlescrollOption extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.save.data.downscroll = !FlxG.save.data.downscroll;
+		display = updateDisplay();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return FlxG.save.data.downscroll ? "Middlescroll" : "No Middlescroll";
+	}
+}
+
+
 class GhostTapOption extends Option
 {
 	public function new(desc:String)
