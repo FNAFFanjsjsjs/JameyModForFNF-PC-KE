@@ -150,14 +150,14 @@ class MiddlescrollOption extends Option
 
 	public override function press():Bool
 	{
-		FlxG.save.data.downscroll = !FlxG.save.data.downscroll;
+		FlxG.save.data.midscroll = !FlxG.save.data.midscroll;
 		display = updateDisplay();
 		return true;
 	}
 
 	private override function updateDisplay():String
 	{
-		return FlxG.save.data.downscroll ? "Middlescroll" : "No Middlescroll";
+		return FlxG.save.data.midscroll ? "Middlescroll" : "No Middlescroll";
 	}
 }
 
