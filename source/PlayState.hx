@@ -1082,7 +1082,7 @@ class PlayState extends MusicBeatState
 		
 		trace('starting');
 
-		if (isStoryMode)
+		if (isStoryMode && FlxG.save.data.nodiag)
 		{
 			switch (StringTools.replace(curSong," ", "-").toLowerCase())
 			{
