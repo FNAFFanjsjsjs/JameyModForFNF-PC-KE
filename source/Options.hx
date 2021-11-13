@@ -161,6 +161,27 @@ class MiddlescrollOption extends Option
 	}
 }
 
+class MiddlescrollOption extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.save.data.nofreeplaymusic = !FlxG.save.data.nofreeplaymusic;
+		display = updateDisplay();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return FlxG.save.data.midscroll ? "Music in Freeplay" : "No Music in Freeplay";
+	}
+}
+
 class GhostTapOption extends Option
 {
 	public function new(desc:String)
