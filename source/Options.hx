@@ -199,7 +199,7 @@ class NoDialogueOption extends Option
 
 	private override function updateDisplay():String
 	{
-		return FlxG.save.data.ghost ? "Dialogue" : "No Dialogue";
+		return FlxG.save.data.nodiag ? "Dialogue" : "No Dialogue";
 	}
 }
 
