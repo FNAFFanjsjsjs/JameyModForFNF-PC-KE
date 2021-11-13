@@ -16,7 +16,7 @@ class KadeEngineData
 			FlxG.save.data.midscroll = false;
 			
 		if (FlxG.save.data.nodiag == null)
-		  (FlxG.save.data.nodiag == null)
+		  FlxG.save.data.nodiag == null;
 
 		if (FlxG.save.data.dfjk == null)
 			FlxG.save.data.dfjk = false;
