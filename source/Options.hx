@@ -161,7 +161,7 @@ class MiddlescrollOption extends Option
 	}
 }
 
-class MiddlescrollOption extends Option
+class NoFPMusicOption extends Option
 {
 	public function new(desc:String)
 	{
