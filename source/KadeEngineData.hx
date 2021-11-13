@@ -11,7 +11,7 @@ class KadeEngineData
 
 		if (FlxG.save.data.downscroll == null)
 			FlxG.save.data.downscroll = false;
-			
+
 		if (FlxG.save.data.midscroll == null)
 			FlxG.save.data.midscroll = false;
 
