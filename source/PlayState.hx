@@ -3264,8 +3264,6 @@ class PlayState extends MusicBeatState
 						{
 							if (pressArray[coolNote.noteData])
 							{
-								if (mashViolations != 0)
-									mashViolations--;
 								scoreTxt.color = FlxColor.WHITE;
 								goodNoteHit(coolNote);
 							}
@@ -3542,9 +3540,6 @@ class PlayState extends MusicBeatState
 			return possibleNotes.length + 1;
 		return possibleNotes.length;
 	}
-	
-	var mashing:Int = 0;
-	var mashViolations:Int = 0;
 
 	var etternaModeScore:Int = 0;
 
@@ -3594,7 +3589,7 @@ class PlayState extends MusicBeatState
 
 			}
 		}
-
+/*
 		function goodNoteHit(note:Note, resetMashViolation = true):Void
 			{
 
@@ -3602,7 +3597,7 @@ class PlayState extends MusicBeatState
 					mashing = 0;
 
 				var noteDiff:Float = -(note.strumTime - Conductor.songPosition);
-
+*/
 				if(loadRep)
 				{
 					noteDiff = findByTime(note.strumTime)[3];
@@ -3618,12 +3613,6 @@ class PlayState extends MusicBeatState
 				// the oldest notes are at the end and are removed first
 				if (!note.isSustainNote)
 					notesHitArray.unshift(Date.now());
-
-				if (!resetMashViolation && mashViolations >= 1)
-					mashViolations--;
-
-				if (mashViolations < 0)
-					mashViolations = 0;
 
 				if (!note.wasGoodHit)
 				{
