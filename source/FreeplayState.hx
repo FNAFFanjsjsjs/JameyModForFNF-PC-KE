@@ -312,7 +312,7 @@ class FreeplayState extends MusicBeatState
 
 		if (!FlxG.save.data.nofreeplaymusic)
 		FlxG.sound.playMusic(Paths.inst(songs[curSelected].songName), 0);
-		end
+		end;
 
 		var bullShit:Int = 0;
 
