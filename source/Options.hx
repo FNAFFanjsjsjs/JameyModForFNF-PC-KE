@@ -543,7 +543,7 @@ class Optimization extends Option
 	
 		private override function updateDisplay():String
 		{
-			return "Optimization " + (FlxG.save.data.optimize ? "ON" : "OFF");
+			return "helpy " + (FlxG.save.data.optimize ? "ON" : "OFF");
 		}
 }
 
@@ -564,7 +564,7 @@ class NPSDisplayOption extends Option
 
 	private override function updateDisplay():String
 	{
-		return "NPS Display " + (!FlxG.save.data.npsDisplay ? "off" : "on");
+		return "test " + (!FlxG.save.data.npsDisplay ? "off" : "on");
 	}
 }
 
@@ -649,7 +649,7 @@ class WatermarkOption extends Option
 
 	private override function updateDisplay():String
 	{
-		return "Watermarks " + (Main.watermarks ? "on" : "off");
+		return "idtworks " + (Main.watermarks ? "True" : "false");
 	}
 }
 
